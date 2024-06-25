@@ -1,0 +1,24 @@
+{
+  "name": "aeasyadb",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "start": "electron .",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pinia": "^2.1.7",
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "electron": "^31.0.2",
+    "iconv-lite": "^0.6.3",
+    "vite": "^5.3.1",
+    "vue-router": "^4.4.0"
+  }
+}
